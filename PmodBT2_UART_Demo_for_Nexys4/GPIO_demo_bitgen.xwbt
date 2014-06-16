@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\workspaces\ISE_workspace\PmodBT2 UART Demo\PmodBT2_UART_Demo\GPIO_demo.ncd
+OUTFILE=C:\workspaces\ISE_workspace\PmodBT2 UART Demo\PmodBT2_UART_Demo\GPIO_demo.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\workspaces\ISE_workspace\PmodBT2 UART Demo\PmodBT2_UART_Demo
+LICENSE=WebPack
+USER_INFO=210747817_1777500689_210582605_221

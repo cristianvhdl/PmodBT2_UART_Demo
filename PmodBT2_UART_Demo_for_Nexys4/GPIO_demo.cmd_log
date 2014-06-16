@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.xst" -ofn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc system.ucf -p xc6slx45-csg484-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+par -w -intstyle ise -ol high -mt off GPIO_demo_map.ncd GPIO_demo.ncd GPIO_demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GPIO_demo.twx GPIO_demo.ncd -o GPIO_demo.twr GPIO_demo.pcf -ucf system.ucf 
+bitgen -intstyle ise -f GPIO_demo.ut GPIO_demo.ncd 
+xst -intstyle ise -ifn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.xst" -ofn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.syr" 
+xst -intstyle ise -ifn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.xst" -ofn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.syr" 
+xst -intstyle ise -ifn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.xst" -ofn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc system.ucf -p xc6slx45-csg484-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc system.ucf -p xc6slx45-csg484-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+par -w -intstyle ise -ol high -mt off GPIO_demo_map.ncd GPIO_demo.ncd GPIO_demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GPIO_demo.twx GPIO_demo.ncd -o GPIO_demo.twr GPIO_demo.pcf -ucf system.ucf 
+bitgen -intstyle ise -f GPIO_demo.ut GPIO_demo.ncd 
+xst -intstyle ise -ifn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.xst" -ofn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc6slx45-csg484-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+xst -intstyle ise -ifn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.xst" -ofn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+par -w -intstyle ise -ol high -mt off GPIO_demo_map.ncd GPIO_demo.ncd GPIO_demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GPIO_demo.twx GPIO_demo.ncd -o GPIO_demo.twr GPIO_demo.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f GPIO_demo.ut GPIO_demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+par -w -intstyle ise -ol high -mt off GPIO_demo_map.ncd GPIO_demo.ncd GPIO_demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GPIO_demo.twx GPIO_demo.ncd -o GPIO_demo.twr GPIO_demo.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f GPIO_demo.ut GPIO_demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+par -w -intstyle ise -ol high -mt off GPIO_demo_map.ncd GPIO_demo.ncd GPIO_demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GPIO_demo.twx GPIO_demo.ncd -o GPIO_demo.twr GPIO_demo.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f GPIO_demo.ut GPIO_demo.ncd 
+xst -intstyle ise -ifn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.xst" -ofn "C:/workspaces/ISE_workspace/PmodBT2 UART Demo/PmodBT2_UART_Demo/GPIO_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+par -w -intstyle ise -ol high -mt off GPIO_demo_map.ncd GPIO_demo.ncd GPIO_demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GPIO_demo.twx GPIO_demo.ncd -o GPIO_demo.twr GPIO_demo.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f GPIO_demo.ut GPIO_demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-3 "GPIO_demo.ngc" GPIO_demo.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPIO_demo_map.ncd GPIO_demo.ngd GPIO_demo.pcf 
+par -w -intstyle ise -ol high -mt off GPIO_demo_map.ncd GPIO_demo.ncd GPIO_demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GPIO_demo.twx GPIO_demo.ncd -o GPIO_demo.twr GPIO_demo.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f GPIO_demo.ut GPIO_demo.ncd 

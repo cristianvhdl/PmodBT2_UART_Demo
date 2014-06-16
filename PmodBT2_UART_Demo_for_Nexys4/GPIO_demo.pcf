@@ -1,0 +1,71 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jun 16 12:35:06 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED" LOCATE = SITE "T8" LEVEL 1;
+COMP "BTN" LOCATE = SITE "E16" LEVEL 1;
+COMP "CTS" LOCATE = SITE "E17" LEVEL 1;
+COMP "UART_RXD" LOCATE = SITE "D17" LEVEL 1;
+COMP "UART_TXD" LOCATE = SITE "F14" LEVEL 1;
+COMP "STATUS" LOCATE = SITE "G13" LEVEL 1;
+COMP "RTS" LOCATE = SITE "B13" LEVEL 1;
+COMP "CLK" LOCATE = SITE "E3" LEVEL 1;
+COMP "RESET" LOCATE = SITE "C17" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "btnReg" BEL "uartSend" BEL "strEnd_0" BEL
+        "strEnd_3" BEL "uartData_0" BEL "uartData_1" BEL "uartData_2" BEL
+        "uartData_3" BEL "uartData_4" BEL "uartData_5" BEL "uartData_6" BEL
+        "uartState_FSM_FFd5" BEL "uartState_FSM_FFd1" BEL "uartState_FSM_FFd3"
+        BEL "uartState_FSM_FFd2" BEL "strIndex_0" BEL "strIndex_1" BEL
+        "strIndex_2" BEL "strIndex_3" BEL "strIndex_4" BEL "strIndex_5" BEL
+        "strIndex_6" BEL "strIndex_7" BEL "strIndex_8" BEL "strIndex_9" BEL
+        "strIndex_10" BEL "strIndex_11" BEL "strIndex_12" BEL "strIndex_13"
+        BEL "strIndex_14" BEL "strIndex_15" BEL "strIndex_16" BEL
+        "strIndex_17" BEL "strIndex_18" BEL "strIndex_19" BEL "strIndex_20"
+        BEL "strIndex_21" BEL "strIndex_22" BEL "strIndex_23" BEL
+        "strIndex_24" BEL "strIndex_25" BEL "strIndex_26" BEL "strIndex_27"
+        BEL "strIndex_28" BEL "strIndex_29" BEL "strIndex_30" BEL
+        "blinkCounter_0" BEL "blinkCounter_1" BEL "blinkCounter_2" BEL
+        "blinkCounter_3" BEL "blinkCounter_4" BEL "blinkCounter_5" BEL
+        "blinkCounter_6" BEL "blinkCounter_7" BEL "blinkCounter_8" BEL
+        "blinkCounter_9" BEL "blinkCounter_10" BEL "blinkCounter_11" BEL
+        "blinkCounter_12" BEL "blinkCounter_13" BEL "blinkCounter_14" BEL
+        "blinkCounter_15" BEL "blinkCounter_16" BEL "blinkCounter_17" BEL
+        "blinkCounter_18" BEL "blinkCounter_19" BEL "blinkCounter_20" BEL
+        "blinkCounter_21" BEL "Inst_UART_TX_CTRL/bitIndex_30" BEL
+        "Inst_UART_TX_CTRL/bitIndex_29" BEL "Inst_UART_TX_CTRL/bitIndex_28"
+        BEL "Inst_UART_TX_CTRL/bitIndex_27" BEL
+        "Inst_UART_TX_CTRL/bitIndex_26" BEL "Inst_UART_TX_CTRL/bitIndex_25"
+        BEL "Inst_UART_TX_CTRL/bitIndex_24" BEL
+        "Inst_UART_TX_CTRL/bitIndex_23" BEL "Inst_UART_TX_CTRL/bitIndex_22"
+        BEL "Inst_UART_TX_CTRL/bitIndex_21" BEL
+        "Inst_UART_TX_CTRL/bitIndex_20" BEL "Inst_UART_TX_CTRL/bitIndex_19"
+        BEL "Inst_UART_TX_CTRL/bitIndex_18" BEL
+        "Inst_UART_TX_CTRL/bitIndex_17" BEL "Inst_UART_TX_CTRL/bitIndex_16"
+        BEL "Inst_UART_TX_CTRL/bitIndex_15" BEL
+        "Inst_UART_TX_CTRL/bitIndex_14" BEL "Inst_UART_TX_CTRL/bitIndex_13"
+        BEL "Inst_UART_TX_CTRL/bitIndex_12" BEL
+        "Inst_UART_TX_CTRL/bitIndex_11" BEL "Inst_UART_TX_CTRL/bitIndex_10"
+        BEL "Inst_UART_TX_CTRL/bitIndex_9" BEL "Inst_UART_TX_CTRL/bitIndex_8"
+        BEL "Inst_UART_TX_CTRL/bitIndex_7" BEL "Inst_UART_TX_CTRL/bitIndex_6"
+        BEL "Inst_UART_TX_CTRL/bitIndex_5" BEL "Inst_UART_TX_CTRL/bitIndex_4"
+        BEL "Inst_UART_TX_CTRL/bitIndex_3" BEL "Inst_UART_TX_CTRL/bitIndex_2"
+        BEL "Inst_UART_TX_CTRL/bitIndex_1" BEL "Inst_UART_TX_CTRL/bitIndex_0"
+        BEL "Inst_UART_TX_CTRL/bitTmr_13" BEL
+        "Inst_UART_TX_CTRL/txState_FSM_FFd1" BEL
+        "Inst_UART_TX_CTRL/txState_FSM_FFd2" BEL "Inst_UART_TX_CTRL/txBit" BEL
+        "Inst_UART_TX_CTRL/txData_7" BEL "Inst_UART_TX_CTRL/txData_6" BEL
+        "Inst_UART_TX_CTRL/txData_5" BEL "Inst_UART_TX_CTRL/txData_4" BEL
+        "Inst_UART_TX_CTRL/txData_3" BEL "Inst_UART_TX_CTRL/txData_2" BEL
+        "Inst_UART_TX_CTRL/txData_1" BEL "LEDReg" BEL
+        "Inst_UART_TX_CTRL/bitTmr_9" BEL "Inst_UART_TX_CTRL/bitTmr_8" BEL
+        "Inst_UART_TX_CTRL/bitTmr_7" BEL "Inst_UART_TX_CTRL/bitTmr_6" BEL
+        "Inst_UART_TX_CTRL/bitTmr_5" BEL "Inst_UART_TX_CTRL/bitTmr_4" BEL
+        "Inst_UART_TX_CTRL/bitTmr_3" BEL "Inst_UART_TX_CTRL/bitTmr_2" BEL
+        "Inst_UART_TX_CTRL/bitTmr_1" BEL "Inst_UART_TX_CTRL/bitTmr_0" BEL
+        "Inst_UART_TX_CTRL/bitTmr_10" BEL "Inst_UART_TX_CTRL/bitTmr_11" BEL
+        "Inst_UART_TX_CTRL/bitTmr_12" BEL "CLK_BUFGP/BUFG" BEL
+        "Mshreg_uartState_FSM_FFd6" BEL "uartState_FSM_FFd6";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
